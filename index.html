@@ -8,12 +8,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 1080px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/Alpha.loader.js"></script>
+    <script src="./Build/Alpha.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Alpha.data",
-        frameworkUrl: "Build/Alpha.framework.js",
-        codeUrl: "Build/Alpha.wasm",
+        dataUrl: "./Build/Alpha.data",
+        frameworkUrl: "./Build/Alpha.framework.js",
+        codeUrl: "./Build/Alpha.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "FPS Game",
